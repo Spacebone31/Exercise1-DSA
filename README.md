@@ -6,7 +6,7 @@
 @@ text in purple (and bold)@@
 ```
 
-@@ # Project Title: Animal @@
+@@ Project Title: Animal @@
 
 ## Project Description:
   
