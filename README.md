@@ -1,4 +1,4 @@
-# Project Title: Animal
+@@ # Project Title: Animal @@
 
 ## Project Description:
   
@@ -9,4 +9,3 @@
   2. Open the file or copy the code to the IDE or Java compiler online.
   3. Run the code
 (*If using IDE don't forget to install java and java compiler (JDK) first before running the program*)
-
