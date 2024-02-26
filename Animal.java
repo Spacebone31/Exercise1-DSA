@@ -4,12 +4,14 @@ public class Animal {
     private String name;
     private String species;
     private int age;
+    private String sound;
 
-    public Animal(String name, String species, int age) {
+    public Animal(String name, String species, int age, String sound) {
         //Constructor
         this.name = name;
         this.species = species;
         this.age = age;
+        this.sound = sound;
     }
 
     //Getter
@@ -41,22 +43,33 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    //Getter
+    public String getSound() {
+        return sound;
+    }
+
+    //Setter
+    public void setSound(String sound) {
+        this.sound = sound;
+    }
 }
 
 //Subclass - Inheritance
-class Lion extends Animal {
+class Fish extends Animal {
     //Polymorphism - Overriding
-    public Lion(String name, String species, int age) {
-        super(name, species, age);
+    public Fish(String name, String species, int age, String sound) {
+        super(name, species, age, sound);
     }
 }
 
 //Driver
 class Driver {
     public static void main(String[] args) {
-        Lion lion = new Lion("Simba", "Lion", 5);
-        System.out.println("Name: " + lion.getName());
-        System.out.println("Species: " + lion.getSpecies());
-        System.out.println("Age: " + lion.getAge());
+        Fish fish = new Fish("Nemo", "Fish", 5, "Blub... Blub... Blub...");
+        System.out.println("Name: " + fish.getName());
+        System.out.println("Species: " + fish.getSpecies());
+        System.out.println("Age: " + fish.getAge());
+        System.out.println("Sound: " + fish.getSound());
     }
 }
