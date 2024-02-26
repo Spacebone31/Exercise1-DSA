@@ -1,4 +1,4 @@
-- Project Title: Animal@@
+# Project Title: Animal
 
 ## Project Description:
   
