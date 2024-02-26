@@ -1,13 +1,6 @@
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
 ```
-
-@@ Project Title: Animal @@
-
+@@ Project Title: Animal@@
+```
 ## Project Description:
   
   This project describes the 3 out of 4 principles of Object-Oriented Programming with Java as the programming language. The 3 principles used in the code are Inheritance, Encapsulation, and Polymorphism. The topic that is going to be used is animals. Other than the principles, the code also includes a getter, setter, constructor, and driver. The code will give an output (if run) giving the name, species, age, and sound of the animal. This code is typed in IDE IntelliJ.
